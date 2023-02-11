@@ -1,8 +1,11 @@
-- do NOT wrap aggregate functions within functions
+- if you need to aggregate an aggregate, break the problem into multiple CTEs
+- use as many CTEs as possible
 - prefer to use CTEs instead of subqueries
 - do not use correlated subqueries
 - prefer to use window functions, but don’t mix window functions and group by
-- prefer to separate each step into multiple CTEs (this needs to be better explained)
 - avoid using EXISTS / NOT EXISTS (use join exclusions instead)
 - don't make unnecessary joins
 - do not put metrics in the group by clause
+- use row_number when dealing with an Nth problem.
+- use lag window function to calculate growth rates
+- if calculating a rate, multiply the numerator by 1.0
