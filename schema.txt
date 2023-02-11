@@ -1,0 +1,20 @@
+flights
+- flight_id
+- to_airport_id
+- from_airport_id
+- departure (timestamp)
+- arrival (timestamp)
+- pilot_id
+- capacity
+
+tickets
+- ticket_id
+- flight_id
+- passenger_id
+- purchased_time (timestamp)
+
+airports
+- airport_id
+- city
+- state
+- country
