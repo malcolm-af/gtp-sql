@@ -1,0 +1,5 @@
+table: countries
+columns: country, sales 
+
+table: continents
+continent, country

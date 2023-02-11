@@ -1,0 +1,11 @@
+- rides
+    - ride_id, 
+    - pickup_loc, dropoff_loc, 
+    - pickup_time, dropoff_time, 
+    - passenger_id, driver_id
+
+- passengers
+    - passenger_id, name, signup_date
+
+- drivers
+    - driver_id, name, signup_date

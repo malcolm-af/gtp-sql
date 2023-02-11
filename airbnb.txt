@@ -1,0 +1,35 @@
+users:
+	- user_id
+  - location_id
+  
+rooms:
+	- room_id
+  - location_id
+  - type
+  
+search_results:
+	- search_id
+  - user_id
+  - timestamp
+  - room_id
+  - position
+  
+bookings:
+	- booking_id
+	- user_id
+  - room_id
+  - start_date
+  - end_date
+  - price
+  - search_id
+  
+reviews:
+	- booking_id
+  - timestamp
+  - review_stars (1 to 5)
+
+locations:
+	- location_id
+  - city
+  - state
+  - country
